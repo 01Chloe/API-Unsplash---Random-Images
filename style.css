@@ -1,0 +1,31 @@
+*, ::before, ::after{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+body{
+     background: linear-gradient(to right, rgb(255, 234, 243), rgb(250, 213, 238));
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+img{
+     border-radius: 5px;
+     box-shadow: 3px 3px 15px 5px rgb(171, 171, 171);
+}
+button{
+     padding: 8px;
+     border: none;
+     border-radius: 8px;
+     background-color: pink;
+     color: rgb(37, 2, 37);
+     cursor: pointer;
+     margin-top: 30px;
+     font-size: 25px;
+     transition: transform 0.2s ease-out;
+}
+button:active{
+     transform: scale(0.92);
+}
